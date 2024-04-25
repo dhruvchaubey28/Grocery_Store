@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index">Home</a></li>
+                <li><a href="https://www.bigbasket.com/" target="new">Shop</a></li>
+            </ul>
+        </nav>
+        <h1><a href="/index" id="store-link" style="text-decoration: none; color: inherit;">Grocery Store</a></h1>
+
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Login</h2>
+            <form action="login_process.php" method="POST">
+                <label for="contact">Contact:</label><br>
+                <input type="text" id="contact" name="contact"><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="Login">
+            </form>
+            <p>Don't have an account? <a href="/sign">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>

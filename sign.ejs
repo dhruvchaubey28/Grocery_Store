@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1  style="color: inherit; width: auto;">Grocery Store</h1>
+        <a href="/index" style="color: #fff;">Home</a>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+            <h2 style="color: black;">Sign Up</h2>
+            <form action="signup_process.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="age">Age:</label><br>
+                <input type="text" id="age" name="age"><br><br>
+
+                <label for="contact">Contact:</label><br>
+                <input type="text" id="contact" name="contact"><br><br>
+
+                <label for="address">Address:</label><br>
+                <textarea id="address" name="address"></textarea><br><br>
+
+                <label for="password">Create Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="confirm_password">Confirm Password:</label><br>
+                <input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+                <input style="color: blue; background-color: #fff; width: auto; border-radius: 0%;" type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

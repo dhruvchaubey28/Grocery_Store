@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2%; /* Adjust padding */
+    text-align: center;
+    position: relative; /* Make the header a positioning context */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.store-title {
+    text-align: left; /* Align to left */
+    margin: 0; /* Remove margin */
+    padding-left: 20px; /* Add padding for spacing */
+    position: absolute; /* Position absolutely */
+    top: 10px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 0.1%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
